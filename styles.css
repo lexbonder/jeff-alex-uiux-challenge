@@ -1,5 +1,9 @@
 body {
   background: url()
   font-family: 'Open Sans', sans-serif;
-  font-family: 'Black Ops One', cursive;
+  
 };
+
+.ops {
+  font-family: 'Black Ops One', cursive; 
+}
