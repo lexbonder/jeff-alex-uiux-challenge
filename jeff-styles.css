@@ -1,8 +1,17 @@
 header ul {
   display: flex;
+}
 
+header li {
+    padding: 10px;
 }
 
 header {
-  display: block;
+ display: flex;
+ justify-content: space-between;
+}
+
+.welcome {
+  float: right;
+  padding: 10px;
 }
