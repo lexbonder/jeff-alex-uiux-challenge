@@ -1,7 +1,8 @@
 body {
   background-image: url('./images/MainBG.jpg');
   font-family: 'Open Sans', sans-serif;
-  
+      display: flex;
+    flex-direction: column;
 }
 
 .ops {
