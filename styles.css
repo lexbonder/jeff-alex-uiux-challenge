@@ -1,8 +1,8 @@
 body {
-  background: url()
+  background-image: url('./images/MainBG.jpg');
   font-family: 'Open Sans', sans-serif;
   
-};
+}
 
 .ops {
   font-family: 'Black Ops One', cursive; 
