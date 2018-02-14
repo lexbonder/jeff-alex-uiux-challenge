@@ -1,0 +1,8 @@
+header ul {
+  display: flex;
+
+}
+
+header {
+  display: block;
+}
