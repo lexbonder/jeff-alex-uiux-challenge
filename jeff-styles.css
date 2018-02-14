@@ -3,12 +3,12 @@ header ul {
 }
 
 header li {
-    padding: 10px;
+  padding: 10px;
 }
 
 header {
- display: flex;
- justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .welcome {
@@ -18,7 +18,7 @@ header {
 
 .drills {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 
 h2 {
@@ -37,40 +37,57 @@ h2 {
   justify-content: space-around;
 }
 
-
 .drills h4 {
   color: white;
   font-size: 3em;
-  
 }
 
 .drills img {
-      padding: 0 64px;
-    margin-bottom: 70px;
+  padding: 0 64px;
+  margin-bottom: 70px;
 }
 
 .button-wrapper button {
   border: 2px solid white;
   border-radius: 10px;
-       height: 300px;
-    width: 332px;
+  height: 300px;
+  width: 332px;
   background-color: transparent;
   display: flex;
   flex-direction: column;
-justify-content: space-between;
+  justify-content: space-between;
 }
 
 footer {
   display: flex;
   justify-content: flex-start;
-
 }
 
 footer img {
   height: 40px;
 }
 
-footer h4{
-      padding: 13px 0 0 0;
-      margin-right: 10px
+footer h4 {
+  padding: 13px 0 0 0;
+  margin-right: 10px;
+}
+
+.objective-wrapper {
+  display: flex;
+}
+
+.objectives h2 {
+      align-self: flex-start;
+      margin: 0 0 0 10px;
+}
+
+.objective {
+  border: 2px solid white;
+  border-radius: 10px;
+  height: 300px;
+  width: 332px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
