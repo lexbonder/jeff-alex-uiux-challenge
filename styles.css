@@ -26,3 +26,67 @@ body {
   border-radius: 10px;
   border: 4px solid white;
 }
+
+.log-book-and-cal {
+  display: flex;
+  justify-content: space-around;
+}
+
+.log-book-wrapper,
+.calendar-wrapper {
+  margin: 40px;
+}
+
+.log-book,
+.calendar {
+  border: 2px solid white;
+  height: 494px;
+}
+
+.log-book {
+  width: 490px;
+  text-align: left;
+}
+
+.log-book ul {
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  height: 404px;
+  overflow: hidden;
+}
+
+.log-book li {
+  border-bottom: 2px solid black;
+  padding: 35px 10px;
+  height: 110px;
+  font-size: 2.5em;
+}
+
+.calendar {
+  width: 800px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.calendar article {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100px;
+  height: 70px;
+  margin: 10px;
+  padding: 16px;
+  font-size: 2em;
+  color: black;
+}
+
+#month-year {
+  padding: 0 0 20px 0;
+  background-color: transparent;
+  color: white;
+}
+
+.month {
+  font-size: 1.5em;
+}
