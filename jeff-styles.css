@@ -58,3 +58,18 @@ h2 {
   flex-direction: column;
 justify-content: space-between;
 }
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+footer img {
+  height: 40px;
+}
+
+footer h4{
+      padding: 13px 0 0 0;
+      margin-right: 10px
+}
