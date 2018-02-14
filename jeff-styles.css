@@ -23,7 +23,8 @@ header {
 
 h2 {
   font-size: 3.5em;
-  
+  text-align: left;
+  margin: 15px;
 }
 
 .drills h2 {
